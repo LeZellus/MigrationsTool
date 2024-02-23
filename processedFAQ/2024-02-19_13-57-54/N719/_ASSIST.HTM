@@ -1,0 +1,223 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<meta name="GENERATOR" content="Microsoft FrontPage 12.0">
+<meta name="VDEP" content="425">
+<meta name="VFIN" content="5.12">
+<link rel="stylesheet" type="text/css" href="../Image/Faq1.css">
+
+<title>FSE : Erreur d'exécution 53 - lors de la télétransmission</title>
+<STYLE>
+<!--
+p.message-erreur { font-size: 8 pt; font-family: Verdana; text-align: left; border-style: solid;
+               border-width: 1; margin-left: 7; padding-left: 4;
+               padding-right: 4; padding-top: 1; padding-bottom: 1;
+               background-color: #C0C0C0 }
+p.titre-numérote { list-style-type: upper-roman; font-size: 12 pt; color: #2F508F; font-weight:
+               bold }
+-->
+<BODY class="commun - corpsdetexte3" topmargin="0" leftmargin = "3">
+<!--
+{  }
+{  }
+{  }
+{  }
+faq_titre{erreur}
+faq_branche{logiciels_sesam}
+-->
+</STYLE>
+</head>
+
+<body class="commun-corpsdetexte3" topmargin="0" leftmargin="3">
+
+<p class="commun-corpsdetexte3">
+
+<div class="Couleur">
+	<p class="Titre-NoteFaq">FSE : Erreur d'exécution 53 - lors de la télétransmission</p>
+
+	<p class="Info-Réponse">Contexte</p>
+
+	<p class="corrige">Manipulations entrainant le message d'erreur ou l'anomalie : </p>
+	<p class="Question-réponse">Ouverture de la fenêtre Mise en lot et 
+	télétransmission ou Télétransmission.</p>
+	
+	<p class="corrige">Message d'erreur ou anomalie :</p>
+	<p class="message-erreur"> Erreur d'exécution '53':<br>Fichier introuvable: 
+	FTUAECL.dll<br>(exemple pour une télétransmission Wanadoo Santé)<br><br>
+	<img alt="" src="img6.jpg"><br> </p>
+	
+	<p class="Info-Réponse">Réponse</p>
+	<table style="border-collapse: collapse; width: 95%; display:none;" border="0" cellpadding="0" cellspacing="0">
+		<caption class="HMCSC">Manipulation N1 SANS Prise en main</caption>		
+		<tbody class="ManipCSC">			
+			<tr class="contenu">				
+				<td>
+					<br>
+					<p class="contenu">Contenu ici des manipulations faites par les N1 SANS Prise en main</p>
+					<ul>
+						<li>test</li>
+						<li></li>
+						<li></li>
+					</ul>									
+					<br>
+				</td>
+			</tr>							
+		</tbody>
+	</table>
+	<br>
+		
+	<table style="border-collapse: collapse; width: 95%;" border="0" cellpadding="0" cellspacing="0">
+		<caption class="HMN1">Manipulation N1</caption>		
+		<tbody class="ManipN1">			
+			<tr class="contenu">				
+				<td>
+					<br>
+					<p class="contenu">Si l'erreur se présente pendant la 
+					télétransmission. Il y a un problème au niveau d'une DLL 
+					cela va dépendre du concentrateur par lequel passe le 
+					médecin :</p>
+					<ul>
+						<li>
+						<p class="contenu">Par RSS (Réseau Santé Social), 
+						envoyez le fichier rssmail_dll.exe<br></p>
+						</li>
+						<li>
+						<p class="contenu">Par Santésurf, envoyez INTRANET.dll à 
+						placer dans <a href="file:///H:/FAQ/BASE/INDEFINI.HTM">C:\Windows</a>\System32 
+						(obsolète pour la télétransmission par OCT Santésurf)<br>
+						</p>
+						</li>
+						<li>
+						<p class="contenu">Par Wanadoo Santé, envoyer <em>FTUA</em> 
+						disponible sur
+						<a href="file:///Z:/Public/Outils_CLM/FSE/FTUA/FTUA.zip/FTUA">Z:\Public\Outils_CLM\FSE\FTUA\</a> ou Teledistrib - Home 
+						/ outils / Outils FSE / FTUA - Wanadoo Sante.zip<br>Les 
+						fichiers sont à dézipper dans dans 
+						<a href="file:///H:/FAQ/BASE/INDEFINI.HTM">C:\Windows</a> 
+						ET <a href="file:///H:/FAQ/BASE/INDEFINI.HTM">C:\Windows\System32</a> pour 32 bits 
+						OU
+<a href="file:///H:/FAQ/BASE/INDEFINI.HTM">C:\Windows\SysWOW64</a> pour 64 bits.<br>
+						<br>Si l'erreur persiste pour Wanadoo Santé, il faudra basculer vers le 
+						mode de télétransmission Internet Standard :<br></p>
+						<ul>
+							<li>
+							<p class="contenu">Menu<em> FSE</em> - <em>
+							Paramétrage</em></p>
+							</li>
+							<li>
+							<p class="contenu">Option <em>Télétransmission</em></p>
+							</li>
+							<li>
+							<p class="contenu">Basculer le 							<span class="auto-style4">Réseau de messagerie 
+							utilisé</span> sur <em>Réseau Internet Standard</em>  
+							puis valider</p>
+							</li>
+							<li>
+							<p class="contenu">Menu em>FSE</em> - <em>
+							TTélétransmission</em></p>
+							</li>
+							<li>
+							<p class="contenu">Mettre le
+							<span class="auto-style4">Choix de la Connexion 
+							Distante</span> sur <em>Connexion par Réseau local</em></p>
+							</li>
+							<li>
+							<p class="contenu">Rentrer dans le bouton
+							<span class="auto-style4">Paramétrage de la 
+							connexion</span> ; le médecin devra rentrer les 
+							informations de connexion à son compte Wanadoo 
+							Santé.</p>
+							</li>
+						</ul>
+						</li>
+					</ul>
+					<p class="contenu">Redémarrer l'ordinateur et faire un 
+					nouveau test de mise en lot et télétransmission.<br></p>
+					<p class="contenu"><strong>Si l'erreur se présente avant 
+					l'affichage de la fenêtre de télétransmission</strong>, 
+					alors il faut dans un premier temps réinstaller la fonction 
+					sesam vitale correspondant à la version du logiciel pour les 
+					clients étant toujours sous &quot;FSE VB&quot;.<br>Pour les 
+					clients jFSE ce type d'erreur ne doit pas exister.</p>
+					<br>
+				</td>
+			</tr>						
+		</tbody>
+	</table>
+	<br>
+	
+	<table style="border-collapse: collapse; width: 95%; display:none;" border="0" cellpadding="0" cellspacing="0">
+		<caption class="HMN2" id="">Manipulation N2</caption>
+		<tbody class="ManipN2">			
+			<tr class="contenu">				
+				<td>
+					<br>
+					<p class="contenu">Contenu ici des manipulations faites par les niveaux 2</p>															
+					<br>
+				</td>
+			</tr>						
+		</tbody>
+	</table>		
+	<br>
+	
+	<table style="border-collapse: collapse; width: 95%; display:none;" border="0" cellpadding="0" cellspacing="0">
+		<caption class="HMN3">Manipulation N3</caption>
+		<tbody class="ManipN3">			
+			<tr class="contenu">				
+				<td>
+					<br>
+					<p class="contenu">Contenu ici des manipulations faites par les niveaux 3</p>
+					<br>
+				</td>
+			</tr>						
+		</tbody>
+	</table>		
+	<br>
+	
+	<table>
+		<tr>
+			<td style="height: 20px">
+				<p class="corrige">Corrigé en version : </p>
+			</td>			
+			<td style="height: 20px">
+				<p class="corrige_rep">N/A</p>
+			</td>
+		</tr>
+		<tr>
+			<td><p class="Question-réponse"></p></td>
+		</tr>
+		<tr>
+			<td>
+				<p class="corrige">Ticket Jira :</p>
+			</td>			
+			<td>
+				<p class="corrige"><a href="">N/A</a></p>
+			</td>
+		</tr>
+	</table>
+</div> </p>
+
+<table class="commun-references2" border="1" width="100%" cellspacing="0" height="83" cellpadding="3"
+bordercolor="#808080" style="color: rgb(128,128,128)">
+  <tr>
+    <td width="180" height="23" bgcolor="#C0C0C0" colspan="2"><font color="#808080"><strong>INFOS</strong></font></td>
+  </tr>
+  <tr>
+    <td height="1" style="border-left: 1px solid rgb(192,192,192)" valign="top"
+    class="commun-infos" width="80%"><p style="margin-top: 0; margin-bottom: 0"><strong><font
+    color="#808080">N° Version :&nbsp&nbspà <br>
+    <br>
+    Rubriques:</font></strong></p>
+    <p style="margin-top: 0; margin-bottom: 0" class="commun-infos"><font color="#808080"><strong>Sesam-Vitale/Teletransmission<br></strong></font></p>
+    <p style="margin-top: 0; margin-bottom: 0">&nbsp;</td>
+    <td width="20%" height="1" style="border-left: 1px solid rgb(192,192,192)" valign="top"
+    class="commun-infos"><font color="#808080"><strong>Article N°</strong> 719<br>
+    <strong>Créé le</strong> 19/03/2007  par : RLESNE<br>
+    <strong>Mis à jour le</strong> 30/10/2019  par : NASSIE</font><br>
+    <font color="#808080"><br>
+    <p style="margin-top: 0; margin-bottom: 0"><font face="Arial"><strong>Logiciels :</strong></p></font></td>
+  </tr>
+</table>
+</body>
+</html>
